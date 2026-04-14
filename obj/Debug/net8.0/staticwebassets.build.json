@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "868JpUTgUeDDDOq4m5CGKotuSEFF5nm/7ytU1s5SAok=",
+  "Source": "NanoGuardian.Api",
+  "BasePath": "_content/NanoGuardian.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

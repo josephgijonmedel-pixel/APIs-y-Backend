@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "NanoGuardian.Api.Controllers.AlertasController",
+    "Method": "RecibirAlerta",
+    "RelativePath": "api/Alertas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevaAlerta",
+        "Type": "NanoGuardian.Api.Models.Alerta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
