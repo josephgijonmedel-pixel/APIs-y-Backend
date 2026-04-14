@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NanoGuardian.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69c74b5ef08362668bcf55938e5024054e1399cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e4a734b3d43703662e754b7db56a352602d1fea")]
 [assembly: System.Reflection.AssemblyProductAttribute("NanoGuardian.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NanoGuardian.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
