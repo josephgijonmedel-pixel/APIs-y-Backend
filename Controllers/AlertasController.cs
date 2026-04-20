@@ -10,15 +10,14 @@ namespace NanoGuardian.Api.Controllers
             [HttpGet]
             public IActionResult ObtenerAlerta()
             {
-                // Por ahora, simulamos que devolvemos la última alerta
-                var ultimaAlerta = new Alerta 
+                // Usamos los nombres EXACTOS de tu SensorModel.cs
+                var ultimaAlerta = new 
                 { 
-                    Paciente = "Joseph Joel", 
-                    FuerzaImpactoG = 4, 
-                    Estado = "Monitoreando" 
+                    Distancia = 25.5f, 
+                    AlertaCaida = false 
                 };
         
-                return Ok(ultimaAlerta); // Esto devuelve un HTTP 200 con los datos
+                return Ok(ultimaAlerta);
             }
             
             // El verbo POST se usa para RECIBIR y CREAR nuevos datos
