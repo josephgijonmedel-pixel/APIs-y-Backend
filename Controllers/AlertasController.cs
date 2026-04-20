@@ -10,14 +10,14 @@ namespace NanoGuardian.Api.Controllers
             [HttpGet]
             public IActionResult ObtenerAlerta()
             {
-                // Usamos los nombres EXACTOS de tu SensorModel.cs
-                var ultimaAlerta = new 
+                var datos = new 
                 { 
                     Distancia = 25.5f, 
                     AlertaCaida = false 
                 };
         
-                return Ok(ultimaAlerta);
+                // Esto obliga a que se envíen con Mayúscula
+                return new JsonResult(datos);;
             }
             
             // El verbo POST se usa para RECIBIR y CREAR nuevos datos
