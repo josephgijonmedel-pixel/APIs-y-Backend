@@ -7,6 +7,20 @@ namespace NanoGuardian.Api.Controllers
     [Route("api/[controller]")] // La URL será: http://localhost:xxxx/api/alertas
     public class AlertasController: ControllerBase
     {
+            [HttpGet]
+            public IActionResult ObtenerAlerta()
+            {
+            // Por ahora, simulamos que devolvemos la última alerta
+            var ultimaAlerta = new Alerta 
+            { 
+                Paciente = "Juan Pérez", 
+                FuerzaImpactoG = 4.5, 
+                Estado = "Monitoreando" 
+            };
+    
+                return Ok(ultimaAlerta); // Esto devuelve un HTTP 200 con los datos
+            }
+            
             // El verbo POST se usa para RECIBIR y CREAR nuevos datos
             [HttpPost]
             public IActionResult RecibirAlerta([FromBody] Alerta nuevaAlerta)
