@@ -10,14 +10,14 @@ namespace NanoGuardian.Api.Controllers
             [HttpGet]
             public IActionResult ObtenerAlerta()
             {
-            // Por ahora, simulamos que devolvemos la última alerta
-            var ultimaAlerta = new Alerta 
-            { 
-                Paciente = "Juan Pérez", 
-                FuerzaImpactoG = 4.5, 
-                Estado = "Monitoreando" 
-            };
-    
+                // Por ahora, simulamos que devolvemos la última alerta
+                var ultimaAlerta = new Alerta 
+                { 
+                    Paciente = "Joseph Joel", 
+                    FuerzaImpactoG = 4, 
+                    Estado = "Monitoreando" 
+                };
+        
                 return Ok(ultimaAlerta); // Esto devuelve un HTTP 200 con los datos
             }
             
